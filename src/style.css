@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   --text: #6b6375;
   --text-h: #08060d;
@@ -48,6 +50,81 @@
   #social .button-icon {
     filter: invert(1) brightness(2);
   }
+
+/* Landing Page Global Styles */
+* {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.btn-primary {
+  transition: all 0.3s;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(45, 155, 110, 0.4);
+}
+
+.btn-whatsapp {
+  transition: all 0.3s;
+}
+
+.btn-whatsapp:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(37, 211, 102, 0.4);
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 0.7s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.stagger-1 {
+  animation-delay: 0.1s;
+}
+
+.stagger-2 {
+  animation-delay: 0.2s;
+}
+
+.stagger-3 {
+  animation-delay: 0.3s;
+}
+
+.stagger-4 {
+  animation-delay: 0.4s;
+}
+
+.stagger-5 {
+  animation-delay: 0.5s;
+}
+
+.service-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(10, 61, 47, 0.12);
+}
+
+.grid-pattern {
+  background-image: radial-gradient(circle, rgba(10, 61, 47, 0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
 }
 
 body {
