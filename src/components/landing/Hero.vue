@@ -16,8 +16,8 @@
           <div class="w-2 h-2 rounded-full bg-brand-light animate-pulse"></div>
           <span class="text-white/80 text-sm font-medium">Desde 1998 entregando excelência</span>
         </div>
-        <h1 id="hero-title" class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-800 text-white leading-tight mb-6">{{ heroTitle }}</h1>
-        <p id="hero-subtitle" class="text-lg md:text-xl text-white/80 mb-8 max-w-2xl leading-relaxed">{{ heroSubtitle }}</p>
+        <h1 id="hero-title" class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-800 text-white leading-tight mb-6">Soluções em Engenharia de Infraestrutura com Excelência e Experiência</h1>
+        <p id="hero-subtitle" class="text-lg md:text-xl text-white/80 mb-8 max-w-2xl leading-relaxed">Mais de 20 anos desenvolvendo projetos, consultoria e supervisão de obras com qualidade e precisão</p>
         <div class="flex flex-wrap gap-4">
           <a href="#contato" class="inline-flex items-center gap-2 bg-brand-light hover:bg-brand-mid text-white px-7 py-3.5 rounded-lg font-semibold text-lg btn-primary">
             Solicitar Orçamento
@@ -52,19 +52,6 @@
 </template>
 
 <script setup lang="ts">
-defineOptions({
-  name: 'Hero'
-})
-
-interface Props {
-  heroTitle: string
-  heroSubtitle: string
-}
-
-const props = withDefaults(defineProps<Props>(), {
-  heroTitle: 'Soluções em Engenharia de Infraestrutura com Excelência e Experiência',
-  heroSubtitle: 'Mais de 20 anos desenvolvendo projetos, consultoria e supervisão de obras com qualidade e precisão'
-})
 </script>
 
 <style scoped>

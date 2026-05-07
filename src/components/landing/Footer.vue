@@ -26,9 +26,7 @@
 </template>
 
 <script setup lang="ts">
-defineOptions({
-  name: 'Footer'
-})
+
 </script>
 
 <style scoped>

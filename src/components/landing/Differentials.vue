@@ -50,9 +50,6 @@
 </template>
 
 <script setup lang="ts">
-defineOptions({
-  name: 'Differentials'
-})
 </script>
 
 <style scoped>

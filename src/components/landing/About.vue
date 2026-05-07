@@ -5,7 +5,7 @@
         <div>
           <span class="text-brand-mid font-semibold text-sm uppercase tracking-wider">Sobre nós</span>
           <h2 class="text-3xl md:text-4xl font-bold text-brand-dark mt-3 mb-6">Engenharia de referência em infraestrutura</h2>
-          <p id="about-text" class="text-gray-600 leading-relaxed mb-8 text-lg">{{ aboutText }}</p>
+          <p id="about-text" class="text-gray-600 leading-relaxed mb-8 text-lg">Somos uma empresa de engenharia especializada na elaboração de projetos, consultoria e supervisão de obras de infraestrutura. Atuamos há mais de 20 anos no mercado, com uma equipe altamente capacitada e dezenas de clientes satisfeitos.</p>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div class="flex items-center gap-3">
               <div class="w-8 h-8 rounded-full bg-brand-pale flex items-center justify-center">
@@ -55,17 +55,7 @@
 </template>
 
 <script setup lang="ts">
-defineOptions({
-  name: 'About'
-})
 
-interface Props {
-  aboutText: string
-}
-
-const props = withDefaults(defineProps<Props>(), {
-  aboutText: 'Somos uma empresa de engenharia especializada na elaboração de projetos, consultoria e supervisão de obras de infraestrutura. Atuamos há mais de 20 anos no mercado, com uma equipe altamente capacitada e dezenas de clientes satisfeitos.'
-})
 </script>
 
 <style scoped>

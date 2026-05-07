@@ -23,9 +23,7 @@
 </template>
 
 <script setup lang="ts">
-defineOptions({
-  name: 'Area'
-})
+
 </script>
 
 <style scoped>

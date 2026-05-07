@@ -12,14 +12,14 @@
             <i data-lucide="phone" style="width:22px;height:22px;color:#1a6b4a;"></i>
           </div>
           <h3 class="font-bold text-brand-dark mb-1">Telefone</h3>
-          <p id="phone-display" class="text-gray-600">{{ phoneNumber }}</p>
+          <p id="phone-display" class="text-gray-600">(81) 3227-6537</p>
         </div>
         <div class="text-center p-6 rounded-2xl border border-gray-100 bg-surface">
           <div class="w-12 h-12 mx-auto rounded-xl bg-green-50 flex items-center justify-center mb-4">
             <i data-lucide="message-circle" style="width:22px;height:22px;color:#25d366;"></i>
           </div>
           <h3 class="font-bold text-brand-dark mb-1">WhatsApp</h3>
-          <p id="whatsapp-display" class="text-gray-600">{{ whatsappNumber }}</p>
+          <p id="whatsapp-display" class="text-gray-600">(81) 99976-2544</p>
         </div>
         <div class="text-center p-6 rounded-2xl border border-gray-100 bg-surface">
           <div class="w-12 h-12 mx-auto rounded-xl bg-brand-pale flex items-center justify-center mb-4">
@@ -43,19 +43,7 @@
 </template>
 
 <script setup lang="ts">
-defineOptions({
-  name: 'Contact'
-})
 
-interface Props {
-  phoneNumber: string
-  whatsappNumber: string
-}
-
-const props = withDefaults(defineProps<Props>(), {
-  phoneNumber: '(81) 3227-6537',
-  whatsappNumber: '(81) 99976-2544'
-})
 </script>
 
 <style scoped>
