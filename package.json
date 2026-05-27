@@ -16,8 +16,8 @@
       "target": "nsis"
     }
   },
-  "author": "Maua",
-  "description": "fullstack based on electron and vue",
+  "author": "Kleber",
+  "description": "fullstack da landingpage para a engecad",
   "name": "app-intro",
   "private": true,
   "version": "0.0.0",
