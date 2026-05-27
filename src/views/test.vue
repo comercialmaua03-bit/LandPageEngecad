@@ -1,4 +1,4 @@
-<!-- src/views/test.vue -->
+<!-- src/views/test.vue  -->
 <template>
   <div class="p-10">
     <h1>Teste de Componentes</h1>
