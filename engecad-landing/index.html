@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ENGECAD Projetos e Construções | Especialistas em Obras de Infraestrutura</title>
+  <meta name="description" content="ENGECAD - Empresa de engenharia especializada na elaboração de projetos, consultoria e supervisão de obras de infraestrutura. Mais de 20 anos de experiência em terraplenagem, pavimentação e drenagem.">
+  <meta name="keywords" content="engenharia, infraestrutura, terraplenagem, pavimentação, drenagem, Recife, Pernambuco, projetos, obras">
+  <meta name="author" content="ENGECAD Projetos e Construções">
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons (CDN) -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js" defer></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="#inicio" class="header-logo" aria-label="ENGECAD - Ir para o início">
+        <img src="images/logo.png" alt="ENGECAD Projetos e Construções" width="160" height="52">
+      </a>
+
+      <nav class="nav-links" id="nav-links" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#contato">Contato</a>
+        <a href="#contato" class="btn-cta btn-primary">Fale Conosco</a>
+      </nav>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="inicio">
+    <div class="hero-slider">
+      <div class="hero-slide active">
+        <img src="images/hero-1.jpg" alt="Obra de terraplenagem com maquinário pesado" loading="eager" fetchpriority="high">
+      </div>
+      <div class="hero-slide">
+        <img src="images/hero-2.jpg" alt="Pavimentação de rodovia em andamento" loading="lazy">
+      </div>
+      <div class="hero-slide">
+        <img src="images/hero-3.jpg" alt="Construção de sistema de drenagem" loading="lazy">
+      </div>
+    </div>
+    <div class="hero-overlay"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <h1>Especialistas em <span>Obras de Infraestrutura</span></h1>
+        <p>Somos uma empresa de engenharia especializada na elaboração de projetos, consultoria e supervisão de obras de infraestrutura. Atuamos há mais de 20 anos no mercado.</p>
+        <div class="hero-actions">
+          <a href="#contato" class="btn-cta btn-primary btn-lg">
+            Fale com um Especialista
+            <i data-lucide="arrow-right" style="width:18px;height:18px;"></i>
+          </a>
+          <a href="#servicos" class="btn-cta btn-outline btn-lg">
+            Nossos Serviços
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-indicator">
+      <button class="active" aria-label="Slide 1"></button>
+      <button aria-label="Slide 2"></button>
+      <button aria-label="Slide 3"></button>
+    </div>
+  </section>
+
+  <!-- ========== SOBRE ========== -->
+  <section class="section about" id="sobre">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrapper reveal">
+          <img src="images/hero-1.jpg" alt="Equipe de engenheiros da ENGECAD em campo" loading="lazy">
+          <div class="about-badge">
+            <span class="badge-number">1998</span>
+            <span class="badge-text">Desde</span>
+          </div>
+        </div>
+
+        <div class="about-text">
+          <div class="reveal">
+            <span class="section-label">Quem Somos</span>
+            <h2 class="section-title">Mais de duas décadas construindo infraestrutura</h2>
+          </div>
+          <div class="reveal reveal-delay-1">
+            <p>Somos uma empresa de engenharia especializada na elaboração de projetos, consultoria e supervisão de obras de infraestrutura. Atuamos há mais de 20 anos no mercado, possuímos uma equipe altamente capacitada e dezenas de clientes satisfeitos.</p>
+            <p>Com sede em Recife, Pernambuco, a ENGECAD oferece soluções completas — do projeto à supervisão — garantindo qualidade, segurança e eficiência em cada etapa da obra.</p>
+          </div>
+
+          <div class="about-stats reveal reveal-delay-2">
+            <div class="stat-item">
+              <div class="stat-number">
+                <span data-counter="20" data-suffix="+">0</span>
+              </div>
+              <div class="stat-label">Anos de Mercado</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">
+                <span data-counter="50" data-suffix="+">0</span>
+              </div>
+              <div class="stat-label">Clientes Atendidos</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">
+                <span data-counter="100" data-suffix="+">0</span>
+              </div>
+              <div class="stat-label">Projetos Realizados</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVIÇOS ========== -->
+  <section class="section services" id="servicos">
+    <div class="container">
+      <div class="services-header reveal">
+        <span class="section-label">O que Fazemos</span>
+        <h2 class="section-title">Nossos Serviços</h2>
+        <p class="section-subtitle">Soluções completas em engenharia de infraestrutura, do planejamento à execução e supervisão.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Serviço 1: Terraplenagem -->
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-card-bg">
+            <img src="images/service-terraplenagem.jpg" alt="Projeto de Terraplenagem" loading="lazy">
+          </div>
+          <div class="service-card-overlay"></div>
+          <div class="service-card-content">
+            <div class="service-icon">
+              <i data-lucide="mountain" style="width:22px;height:22px;color:#fff;"></i>
+            </div>
+            <h3>Projeto de Terraplenagem</h3>
+            <p>Elaboração de projetos técnicos para movimentação de terra, cortes e aterros em obras de infraestrutura.</p>
+          </div>
+        </div>
+
+        <!-- Serviço 2: Pavimentação -->
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-card-bg">
+            <img src="images/service-pavimentacao.jpg" alt="Projeto de Pavimentação" loading="lazy">
+          </div>
+          <div class="service-card-overlay"></div>
+          <div class="service-card-content">
+            <div class="service-icon">
+              <i data-lucide="route" style="width:22px;height:22px;color:#fff;"></i>
+            </div>
+            <h3>Projeto de Pavimentação</h3>
+            <p>Dimensionamento e projeto de pavimentos rodoviários e urbanos com análise de tráfego e materiais.</p>
+          </div>
+        </div>
+
+        <!-- Serviço 3: Drenagem -->
+        <div class="service-card reveal reveal-delay-3">
+          <div class="service-card-bg">
+            <img src="images/service-drenagem.jpg" alt="Projeto de Drenagem" loading="lazy">
+          </div>
+          <div class="service-card-overlay"></div>
+          <div class="service-card-content">
+            <div class="service-icon">
+              <i data-lucide="droplets" style="width:22px;height:22px;color:#fff;"></i>
+            </div>
+            <h3>Projeto de Drenagem</h3>
+            <p>Sistemas de drenagem pluvial e fluvial, dimensionamento de galerias, bueiros e canais.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="services-grid-row2">
+        <!-- Serviço 4: Estudos -->
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-card-bg">
+            <img src="images/hero-2.jpg" alt="Estudos e Análises de Obras" loading="lazy">
+          </div>
+          <div class="service-card-overlay"></div>
+          <div class="service-card-content">
+            <div class="service-icon">
+              <i data-lucide="file-search" style="width:22px;height:22px;color:#fff;"></i>
+            </div>
+            <h3>Estudos e Análises</h3>
+            <p>Estudos técnicos, análises de viabilidade e diagnósticos para obras de infraestrutura.</p>
+          </div>
+        </div>
+
+        <!-- Serviço 5: Fiscalização -->
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-card-bg">
+            <img src="images/hero-3.jpg" alt="Fiscalização e Supervisão de Obras" loading="lazy">
+          </div>
+          <div class="service-card-overlay"></div>
+          <div class="service-card-content">
+            <div class="service-icon">
+              <i data-lucide="hard-hat" style="width:22px;height:22px;color:#fff;"></i>
+            </div>
+            <h3>Fiscalização e Supervisão</h3>
+            <p>Acompanhamento técnico e fiscalização de obras de infraestrutura, garantindo qualidade e conformidade.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DIFERENCIAIS ========== -->
+  <section class="section differentials" id="diferenciais">
+    <div class="container">
+      <div class="differentials-header reveal">
+        <span class="section-label">Nossos Diferenciais</span>
+        <h2 class="section-title">Por que escolher a ENGECAD</h2>
+        <p class="section-subtitle">Compromisso com excelência técnica e resultados concretos em cada projeto.</p>
+      </div>
+
+      <div class="diff-grid">
+        <div class="diff-card reveal reveal-delay-1">
+          <div class="diff-icon">
+            <i data-lucide="users" style="width:28px;height:28px;color:#fff;"></i>
+          </div>
+          <h3>Equipe Capacitada</h3>
+          <p>Profissionais altamente qualificados com vasta experiência em projetos de infraestrutura.</p>
+        </div>
+
+        <div class="diff-card reveal reveal-delay-2">
+          <div class="diff-icon">
+            <i data-lucide="award" style="width:28px;height:28px;color:#fff;"></i>
+          </div>
+          <h3>+20 Anos de Experiência</h3>
+          <p>Desde 1998 no mercado, acumulando know-how e confiança em cada entrega.</p>
+        </div>
+
+        <div class="diff-card reveal reveal-delay-3">
+          <div class="diff-icon">
+            <i data-lucide="thumbs-up" style="width:28px;height:28px;color:#fff;"></i>
+          </div>
+          <h3>Clientes Satisfeitos</h3>
+          <p>Dezenas de clientes atendidos com compromisso, qualidade e resultados comprovados.</p>
+        </div>
+
+        <div class="diff-card reveal reveal-delay-4">
+          <div class="diff-icon">
+            <i data-lucide="git-merge" style="width:28px;height:28px;color:#fff;"></i>
+          </div>
+          <h3>Do Projeto à Supervisão</h3>
+          <p>Atuação completa em todas as etapas: do planejamento à fiscalização da obra.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTATO ========== -->
+  <section class="section contact" id="contato">
+    <div class="container">
+      <div class="contact-header reveal">
+        <span class="section-label">Fale Conosco</span>
+        <h2 class="section-title">Localização e Contato</h2>
+        <p class="section-subtitle">Entre em contato conosco ou visite nosso escritório em Recife.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Mapa -->
+        <div class="contact-map reveal">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1828.8892611926294!2d-34.92101958029876!3d-8.038144471117688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1908d9591abd%3A0x5fd79153fbc4a19d!2sR.%20Jo%C3%A3o%20Cau%C3%A1s%20-%20Po%C3%A7o%20da%20Panela%2C%20Recife%20-%20PE%2C%2052061-390!5e0!3m2!1spt-BR!2sbr!4v1786975509174!5m2!1spt-BR!2sbr"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            title="Localização da ENGECAD no Google Maps">
+          </iframe>
+        </div>
+
+        <!-- Info + Form -->
+        <div class="contact-info-card reveal reveal-delay-1">
+          <h3>Informações de Contato</h3>
+
+          <div class="contact-detail">
+            <div class="contact-detail-icon">
+              <i data-lucide="map-pin" style="width:18px;height:18px;color:#fff;"></i>
+            </div>
+            <div class="contact-detail-text">
+              <strong>Endereço</strong>
+              <span>Empresarial Casa Forte, Rua João Cauás,<br>Recife, Pernambuco, 52061-390, BR</span>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="contact-detail-icon">
+              <i data-lucide="phone" style="width:18px;height:18px;color:#fff;"></i>
+            </div>
+            <div class="contact-detail-text">
+              <strong>Telefone</strong>
+              <span>(81) 1234-5678</span>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="contact-detail-icon">
+              <i data-lucide="mail" style="width:18px;height:18px;color:#fff;"></i>
+            </div>
+            <div class="contact-detail-text">
+              <strong>E-mail</strong>
+              <span>contato@engecad.com.br</span>
+            </div>
+          </div>
+
+          <!-- Formulário de contato -->
+          <form class="contact-form" id="contact-form" novalidate>
+            <h4>Envie uma Mensagem</h4>
+            <div class="form-group">
+              <input type="text" name="name" id="form-name" placeholder="Seu nome completo" required>
+            </div>
+            <div class="form-group">
+              <input type="tel" name="phone" id="form-phone" placeholder="Telefone com DDD" required>
+            </div>
+            <div class="form-group">
+              <textarea name="message" id="form-message" placeholder="Como podemos ajudar?" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn-cta btn-primary">
+              Enviar Mensagem
+              <i data-lucide="send" style="width:16px;height:16px;"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/logo.png" alt="ENGECAD Projetos e Construções" width="140" height="46">
+          <p>Empresa de engenharia especializada em projetos, consultoria e supervisão de obras de infraestrutura desde 1998.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i data-lucide="facebook" style="width:18px;height:18px;"></i></a>
+            <a href="#" aria-label="Instagram"><i data-lucide="instagram" style="width:18px;height:18px;"></i></a>
+            <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin" style="width:18px;height:18px;"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#diferenciais">Diferenciais</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <ul>
+            <li><a href="tel:+558112345678">(81) 1234-5678</a></li>
+            <li><a href="mailto:contato@engecad.com.br">contato@engecad.com.br</a></li>
+            <li>Empresarial Casa Forte</li>
+            <li>Rua João Cauás</li>
+            <li>Recife - PE, 52061-390</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 ENGECAD Projetos e Construções. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script>
+    // Initialize Lucide icons after DOM load
+    document.addEventListener('DOMContentLoaded', () => {
+      if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+      }
+    });
+  </script>
+</body>
+</html>
